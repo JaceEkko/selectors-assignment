@@ -22,11 +22,6 @@ div .MainText{
   margin: 10vmin 0vmin 10vmin 0vmin;
 }
 
-.QuestDiv p{ /*What happens to paragraphs inside the tag that contains this class*/
-  font-size: 10vmin;
-  text-align: center;
-}
-
 .ChangeImgDiv{
   display: flex;
   justify-content: space-around;
@@ -42,7 +37,7 @@ div .ChangeImg{
   width:3vmin;
   height:3vmin;
 }
-.ChangeImg:Hover{
+.ChangeImg:Hover{ /*change the background-image of a div */
   background-image: url("check.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -71,6 +66,7 @@ a:hover{
   font-size: 7vmin;
   background-color: red;
   border-color:red;
+  letter-spacing: 2vmin;
 }
 
 .ImgRow, .ImgItem{
