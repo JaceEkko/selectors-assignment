@@ -1,0 +1,83 @@
+div .MainText{
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10vmin;
+  padding: 10vmin 10vmin 10vmin 10vmin;
+  color:red;
+}
+.Title{
+  font-size: 10vmin;
+}
+.SubText{
+  font-size: 5vmin;
+}
+
+.QuestList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gold;
+}
+.QuestList div { /*What happens to divs inside the tag that contains this class*/
+  margin: 10vmin 0vmin 10vmin 0vmin;
+}
+
+.QuestDiv p{ /*What happens to paragraphs inside the tag that contains this class*/
+  font-size: 10vmin;
+  text-align: center;
+}
+
+.ChangeImgDiv{
+  display: flex;
+  justify-content: space-around;
+}
+div .ChangeImg{
+  padding: 30vmin;
+}
+.ChangeImg{
+  background-image: url("X.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+  width:3vmin;
+  height:3vmin;
+}
+.ChangeImg:Hover{
+  background-image: url("check.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: green;
+  width:3vmin;
+  height:3vmin;
+}
+
+*{
+  color:blue;
+}
+
+a, a:visited{/*normal color of the link*/
+  color:white;
+  background-color: blue;
+  border-color:blue;
+  border-radius: 4vmin;
+  padding: 2vmin;
+  text-decoration: none;
+  font-size: 5vmin;
+}
+a::selection{
+  color:black;
+}
+a:hover{
+  font-size: 7vmin;
+  background-color: red;
+  border-color:red;
+}
+
+.ImgRow, .ImgItem{
+  width:50vmin;
+  display: flex;
+  justify-content: center;
+}
+.ImgItem + .ImgItem{
+  margin-right: 2vmin;
+}
